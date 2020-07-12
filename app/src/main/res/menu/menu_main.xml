@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gikonyo.mbunikarimu.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/logout"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/btn_add_something"
+        android:icon="@drawable/ic_add_something"
+        android:title=""
+        app:showAsAction="ifRoom"
+        />
+</menu>

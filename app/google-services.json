@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "759582486087",
+    "firebase_url": "https://mbunikarimu.firebaseio.com",
+    "project_id": "mbunikarimu",
+    "storage_bucket": "mbunikarimu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759582486087:android:2a9ae26a31e1a0947ccb62",
+        "android_client_info": {
+          "package_name": "com.gikonyo.mbunikarimu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759582486087-ibnt1skaivufvvh21qndruqjocra8lag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4QrkIDv5hrXWck5cosKw3L2AADO3_zbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759582486087-ibnt1skaivufvvh21qndruqjocra8lag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

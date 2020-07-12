@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MbuniKarimu</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="logout">Logout</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="register">Register</string>
+    <string name="already_registered">already registered?</string>
+    <string name="login_link">login</string>
+
+</resources>

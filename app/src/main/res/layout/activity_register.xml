@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_toolbar"
+        android:layout_alignParentTop="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:minHeight="?attr/actionBarSize"
+        app:logo="@mipmap/ic_launcher_mbuni"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextAppearance="@style/app_title"
+        app:title="@string/app_name"
+        />
+
+    <RelativeLayout
+        android:id="@+id/registerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/tool_bar"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/registerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <EditText
+            android:id="@+id/usernameField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="@string/username"
+            android:textColorHint="@color/black"
+            android:inputType="text"
+            android:maxLines="1"
+            android:ems="10"
+            android:layout_below="@id/registerText"
+            android:layout_centerHorizontal="true"/>
+
+
+        <EditText
+            android:id="@+id/emailField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/usernameField"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="@string/email"
+            android:maxLines="1"
+            android:ems="10"
+            android:textColorHint="@color/black"
+            android:inputType="textEmailAddress"
+            android:layout_centerHorizontal="true"/>
+
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailField"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="@string/password"
+            android:textColorHint="@color/black"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:ems="10"
+            android:layout_centerHorizontal="true"/>
+
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passwordField"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/register"
+            android:textColor="@color/black"
+            android:onClick="register"/>
+
+        <TextView
+            android:id="@+id/loginMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_register"
+            android:text="@string/already_registered"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/loginLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_register"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/loginMessage"
+            android:clickable="true"
+            android:text="@string/login_link"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
